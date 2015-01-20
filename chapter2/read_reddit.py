@@ -16,6 +16,6 @@ reddit_page = urllib2.urlopen("http://www.reddit.com/r/technology/.json")
 parsed = json.loads(reddit_page.read())
 
 # iterate through every news item on the page
-for item in parsed['data']['childredn']:
+for item in parsed['data']['children']:
 	#put it in mongo
 	stories.insert(item['data'])
