@@ -86,6 +86,3 @@ DerivedData
 
 # NH - ignore homework folder
 /homework
-
-# NH - ignore blobs folder
-handling_blobs/
